@@ -8,7 +8,7 @@ export class App extends React.Component {
       <div>
         <h1>{this.props.user.message || 'Hello'}</h1>
 
-        {this.props.user.messagge ? (
+        {this.props.user.message ? (
           <button onClick={this.props.closeUser}>Logout User</button>
         ) : (
           <button
